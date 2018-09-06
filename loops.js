@@ -15,14 +15,13 @@ function whileLoop(number) {
   return 'done'
 }
 
-funcion doWhileLoop(array) {
+function doWhileLoop(array) {
   var i = 0
   function incrementVariable() {
   i = i + 1
-  } do {
-    
-  } while ()
-    
-  }
-
+  } 
+  do {
+    array.shift()
+  } while (array.length > 0 && incrementVariable())
+  return array
 }
