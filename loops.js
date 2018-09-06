@@ -21,7 +21,7 @@ funcion doWhileLoop(array) {
   i = i + 1
   } do {
     
-  } while {
+  } while ()
     
   }
 
